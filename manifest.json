@@ -1,0 +1,23 @@
+{
+  "manifest_version" : 2,
+  "name" : "Loneshark",
+  "description" : "Prevent Grooveshark from being open in multiple tabs.",
+  "version" : "0.0.1",
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": true
+  },
+  "permissions" : [
+    "tabs",
+    "http://*.grooveshark.com/*", 
+    "https://*.grooveshark.com/*"
+  ],
+  "web_accessible_resources": [
+    "scripts/primaryPlayer.js",
+    "scripts/secondaryPlayer.js"
+  ],
+  "icons" : {
+    "48" : "icons/48.png",
+    "128" : "icons/128.png"
+  }
+}
