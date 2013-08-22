@@ -1,5 +1,7 @@
-## Loneshark <img src="https://raw.github.com/L1fescape/loneshark/master/images/shark.png" width="200px" />
+## Loneshark <img src="https://raw.github.com/L1fescape/loneshark/master/images/shark.png" width="200px" style="margin-left:50px" />
 > The singularity is now.
+
+<img src="http://i.imgur.com/4oqpJdL.jpg" />
 
 Loneshark prevents Grooveshark from being open in multiple tabs. When a link to Grooveshark is opened and there is already an instance of Grooveshark running, Loneshark will close the new tab and add the linked song to the end of the current queue.
 
@@ -16,6 +18,7 @@ Load the Chrome Extension:
 - Click `Load Unpacked Extension`
 - Navigate to where you cloned the Loneshark repo
 - `Open`
+
 
 ## Todo
 
